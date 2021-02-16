@@ -11,7 +11,7 @@ import RxSwift
 import GamePackage
 
 public class DefaultFavoriteRepository: NSObject {
-    fileprivate let locale: LocalFavoriteSource
+    private let locale: LocalFavoriteSource
     
    public init(locale: LocalFavoriteSource) {
         self.locale = locale        
