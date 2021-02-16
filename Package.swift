@@ -14,8 +14,9 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/ReactiveX/RxSwift.git", from: "5.0.0"),
+        .package(url: "https://github.com/billmachine/GamePackage.git", from: "1.0.1"),
 //        .package(name: "Realm", url: "https://github.com/realm/realm-cocoa.git", from: "5.4.4"),
-        .package(path: "../GamePackage"),
+//        .package(path: "../GamePackage"),
         
         // Dependencies declare other packages that this package depends on.
         // .package(url: /* package url */, from: "1.0.0"),
